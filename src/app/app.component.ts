@@ -4,9 +4,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  // template: '<h1>Hello World</h1>',         // either give templateUrl or directly provide html
-  styleUrls: ['./app.component.css']       // local css file
+  // template: '<h1>Hello World</h1>',          // either give templateUrl or directly inline html
+  styleUrls: ['./app.component.css']            // local css file
+  // styles: ['h1{background-color:pink}']      // can provide inline css here
 })
 export class AppComponent { 
   title = 'myapp';
+  constructor (){
+    console.log("AppComponent constructor called")
+  }
 }
