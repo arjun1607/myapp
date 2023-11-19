@@ -1,3 +1,11 @@
-<h1>hello world</h1>
-<app-student></app-student>
-<h2>bye!!</h2>
+<h1>hello world PARENT</h1>
+
+<!-- this creates parent child realtionship where Student is child, App component is parent -->
+<!-- child's own css is applied if we dont do encapsulation -->
+<app-student></app-student>                 <!--  // select by element RECOMMENDED -->
+
+<!-- <div class="app-student"></div>             // select by class   -->
+<!-- <div app-student></div>                          // select by attribute  -->
+
+<h2>bye!! PARENT</h2>
+<button>Add</button>  <button>Sub</button> <button>Mult</button>  <button>Div</button>
