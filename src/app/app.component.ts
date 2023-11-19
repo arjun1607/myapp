@@ -20,7 +20,9 @@ import { Employee } from './employee';
   preserveWhitespaces: true,          // provide default space in html template
 
   // encapsulation: ViewEncapsulation.ShadowDom         // global css will not work in shadowDom
-  encapsulation: ViewEncapsulation.None
+  // encapsulation: ViewEncapsulation.None  
+
+  
 })
 export class AppComponent { 
   title = 'myapp';

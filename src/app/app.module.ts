@@ -21,8 +21,9 @@ import { Employee } from './employee';
     SamplemoduleModule
   ],
   
-  // Employee is module lvl class
+  // Employee is module lvl class and available to all declared components
   providers: [Employee],                // mention pipe, services, class names
+
   bootstrap: [AppComponent],    // application kha se boot hoga? phle konsa component load hoga
                 // bootstrap metadata is only for root module - AppModule
   exports: []
