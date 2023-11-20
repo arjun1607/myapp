@@ -11,7 +11,7 @@ import { Employee } from './employee';
 @NgModule({            // it makes the class AppModule a module
   // below written are metadeta (which help in defining class) 
 
-  declarations: [     //  declare the components that belong to the module   
+  declarations: [     //  declare the components that belong to the module, we also declare pipes here
     AppComponent, 
     StudentComponent   // similar components are grouped in a module
   ],
